@@ -11,7 +11,7 @@ return [
 	/**
 	 * Storage
 	 */
-	'storage' => '\\OAuth\\Common\\Storage\\Session',
+	'storage' => 'Session',
 
 	/**
 	 * Consumers
