@@ -17,9 +17,15 @@
             "role": "Developer"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/nickryall/PHPoAuthLib"
+        }
+    ],
     "require": {
         "php": ">=5.4",
-        "lusitanian/oauth": "0.8.9"
+        "lusitanian/oauth": "^0.3"
     },
     "require-dev": {
         "illuminate/support": "~5"
