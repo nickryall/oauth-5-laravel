@@ -19,8 +19,19 @@
     ],
     "repositories": [
         {
-            "type": "vcs",
-            "url": "https://github.com/nickryall/PHPoAuthLib"
+            "type": "package",
+            "package": {
+                "name": "lusitanian/oauth",
+                "version": "dev-master",
+                "source": {
+                    "url": "https://github.com/nickryall/PHPoAuthLib",
+                    "type": "git",
+                    "reference": "dev-master"
+                },
+                "autoload": {
+                    "classmap": [""]
+                }
+            }
         }
     ],
     "require": {
